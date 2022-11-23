@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 2</title>
+    <style>
+        #bnt{
+            padding:16px 0px;
+            margin: 25px;
+            border:none;
+            border-radius: 8px;
+            background: violet;
+            text-decoration:none;
+            outline: none;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: #f3fbff;
+            padding: 14px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-left: 75px;
+        }
+        #bnt:hover{
+            background-color: purple;
+            text-decoration:none; }
+        p{
+            position: relative;
+            left: 90px;
+        }
+    </style>
+</head>
+<body>
+   <p>Clique no botão para ativar a mensagem</p>
+   <button id="bnt" onclick="bnt_alert()">Aperte aqui!</button>
+   
+   <script>
+    function bnt_alert(){
+      alert("Este é um exemplo...")
+    }
+   </script>
+
+</body>
+</html>
